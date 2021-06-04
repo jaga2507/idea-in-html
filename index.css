@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.Header{
+    background-color: black;
+    padding: 1rem 3rem;
+    height: 1rem;
+}
+.tittle{
+    color: white;
+    float: left;
+}
+.list-function{
+    float: right;
+    display: flex;
+    gap: 1rem;
+    cursor: pointer;
+    color: white;
+}
+.introbg {
+    background-image: url('file:///home/jagadish/.cache/.fr-0ekw1z/HTML-CSS-Assignment/intro-bg_1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+    height: 60vh;
+    padding-top: 13%;
+}
+.introbg-inner{
+    background-color: rgba(0, 0, 0, 0.616);
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    height: 30vh;
+    padding-top: 1.5rem;
+    border-radius: 5px;
+}
+.introbg-inner h1{
+    color: white;
+}
+.introbg-inner p{
+    color: white;
+}
+.introbg-inner a{
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    padding: .5rem 1rem;
+    border-radius: 3px;
+}
+.cards-main{
+    display: grid;
+    justify-content: center;
+    grid-column-gap: 20px;
+    grid-template-columns: auto auto auto;
+}
+.cards{
+    width: 20rem;
+    height:auto;
+    text-align: center;
+    margin-top: .5rem;
+    margin-bottom: 2rem;
+    overflow: hidden;
+    padding: 2px;
+    border: 1px solid black;
+}
+.cards img{
+    width: 100%;
+}
+.footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: .2rem;
+}
